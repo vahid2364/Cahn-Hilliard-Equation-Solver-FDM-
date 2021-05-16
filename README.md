@@ -1,14 +1,14 @@
 # Cahn-Hilliard-Equation-Solver-FDM-
 
-!! filename = CH.f90
-!! Vahid Attari
-!! Created: 30 Feb. 2016
-!! Modified: ....
-!! Arroyave Research Group, Department of Materials Science & Engineering, Texas A&M University
-!!
-!! Acknowledgements:  Based on Cahn-Hilliard 1965 paper
-!!
-!! Purpose:
+filename = CH.f90
+Author : Vahid Attari
+Created: 30 Feb. 2016
+Modified: ....
+Arroyave Research Group, Department of Materials Science & Engineering, Texas A&M University
+
+Acknowledgements:  Based on Cahn-Hilliard 1965 paper
+
+Purpose:
 !!   - Phase Field Modeling with dynamic coupling to thermodyanmic and kinetic databases
 !!     to self consistantly model the Spinodal Composition Phenomenon
 !!   - Dynamic coupling is not provided ...
