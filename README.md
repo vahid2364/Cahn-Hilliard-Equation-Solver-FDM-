@@ -14,9 +14,8 @@ Acknowledgements:  Based on Cahn-Hilliard 1965 paper
 
 Purpose:
 
-!!   - Phase Field Modeling with dynamic coupling to thermodyanmic and kinetic databases to self consistantly model the Spinodal Composition Phenomenon
-
-!!   - Dynamic coupling is not provided ...
+		- Phase Field Modeling with dynamic coupling to thermodyanmic and kinetic databases to self consistantly model the Spinodal Composition Phenomenon
+		- Dynamic coupling is not provided ...
    
 !! General Algorithm function:
 
