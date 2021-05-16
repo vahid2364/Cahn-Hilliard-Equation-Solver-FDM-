@@ -1,7 +1,7 @@
 # Cahn-Hilliard-Equation-Solver-FDM-
 
-filename = CH.f90
-Author : Vahid Attari
+filename = CH.f90 \\
+Author : Vahid Attari \\
 Created: 30 Feb. 2016
 Modified: ....
 Arroyave Research Group, Department of Materials Science & Engineering, Texas A&M University
