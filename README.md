@@ -46,6 +46,8 @@ filename = CH.f90
 	!   Nonlinear term: f(u) = u - u**3
 
 
+<img src="https://user-images.githubusercontent.com/11892854/118386432-78937500-b5e5-11eb-9c48-dc04c4be50b4.jpeg" alt="alt text" width="250" height="250">
+
 ![microstructures_000001](https://user-images.githubusercontent.com/11892854/118386432-78937500-b5e5-11eb-9c48-dc04c4be50b4.jpeg)
 ![microstructures_000002](https://user-images.githubusercontent.com/11892854/118386435-792c0b80-b5e5-11eb-84fd-5f993fc2c2c2.jpeg)
 ![microstructures_000004](https://user-images.githubusercontent.com/11892854/118386436-7a5d3880-b5e5-11eb-915a-dd687dc01aaf.jpeg)
