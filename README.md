@@ -2,7 +2,7 @@
 
 filename = CH.f90
 
-Author : Vahid Attari \\
+Author : Vahid Attari
 
 Created: 30 Feb. 2016
 
@@ -13,12 +13,13 @@ Arroyave Research Group, Department of Materials Science & Engineering, Texas A&
 Acknowledgements:  Based on Cahn-Hilliard 1965 paper
 
 Purpose:
-!!   - Phase Field Modeling with dynamic coupling to thermodyanmic and kinetic databases
-!!     to self consistantly model the Spinodal Composition Phenomenon
+
+!!   - Phase Field Modeling with dynamic coupling to thermodyanmic and kinetic databases to self consistantly model the Spinodal Composition Phenomenon
+
 !!   - Dynamic coupling is not provided ...
-!!   
+   
 !! General Algorithm function:
-!!
+
 !!   1. Retrieve parameter data from file "parameters.dat"
 !!   2. Assess thermodynamics of the associated system 
 !!   3. Reads initial phase distribution from "phase.dat" file
