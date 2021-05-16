@@ -47,21 +47,13 @@ filename = CH.f90
 
 <table>
   <tr>
-    <td> <img src="https://user-images.githubusercontent.com/11892854/118386432-78937500-b5e5-11eb-9c48-dc04c4be50b4.jpeg" alt="microstructures_000001" width="250" height="250">
+    <td> 
+<img src="https://user-images.githubusercontent.com/11892854/118386432-78937500-b5e5-11eb-9c48-dc04c4be50b4.jpeg" alt="microstructures_000001" width="250" height="250">
 <img src="https://user-images.githubusercontent.com/11892854/118386435-792c0b80-b5e5-11eb-84fd-5f993fc2c2c2.jpeg" alt="microstructures_000002" width="250" height="250">
 <img src="https://user-images.githubusercontent.com/11892854/118386436-7a5d3880-b5e5-11eb-915a-dd687dc01aaf.jpeg" alt="microstructures_000004" width="250" height="250">
 <img src="https://user-images.githubusercontent.com/11892854/118386439-7cbf9280-b5e5-11eb-9cee-3cc17a7f0ab2.jpeg" alt="microstructures_000007" width="250" height="250">	    
 	  </td>
-    <td>
-
-    </td>
-   </tr> 
    <tr>
-      <td><img src="./Scshot/cab_arrived.png" alt="3" width = 360px height = 640px></td>
-
-      <td><img src="./Scshot/trip_end.png" align="right" alt="4" width = 360px height = 640px>
-  </td>
-  </tr>
 </table>
 
 
