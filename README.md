@@ -19,32 +19,25 @@ Purpose:
    
 !! General Algorithm function:
 
-!!   1. Retrieve parameter data from file "parameters.dat"
+	1. Retrieve parameter data from file "parameters.dat"
+	2. Assess thermodynamics of the associated system ()
+	3. Reads initial phase distribution from "phase.dat" file (Not provided)
+	4. Calculate Phase Evolution with time integration
+	5. Nucleate Phases (Not provided)
 
-!!   2. Assess thermodynamics of the associated system 
+	-  Resolve boundary conditions 
+	 	-- Periodic boundaries in all directions
 
-!!   3. Reads initial phase distribution from "phase.dat" file
+	-  Solve differential equations via 9-stencil finite difference
+	-  Update phase information and concentration data
 
-!!   4. Calculate Phase Evolution with time integration
 
-!!      -  Nucleate Phases
+!! Compilation instructions: 
+	>> make file is not provided
+	>> - Manual: >>  ifort -o a.out CH.f90
 
-!!      -  Resolve boundary conditions 
-
-!!         -- Periodic boundaries in all directions
-
-!!      -  Solve differential equations via 9-stencil finite difference
-
-!!      -  Update phase information and concentration data
-
-!!
-
-!! Compilation instructions: >> make
-
-!!    - Manual: >>  ifort -o a.out CH.f90
-!!
 !! Execution: >> ./a.out 
-!!                                     
+                                
 !!------------------------------------------------------------------------------------
 !!------------------------------------------------------------------------------------
 !!------------------------------------------------------------------------------------
