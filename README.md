@@ -44,3 +44,15 @@ filename = CH.f90
 	!   Cahn- Hilliard solver 	
 	!   with periodic boundary conditions.
 	!   Nonlinear term: f(u) = u - u**3
+
+
+![microstructures_000001](https://user-images.githubusercontent.com/11892854/118386432-78937500-b5e5-11eb-9c48-dc04c4be50b4.jpeg)
+![microstructures_000002](https://user-images.githubusercontent.com/11892854/118386435-792c0b80-b5e5-11eb-84fd-5f993fc2c2c2.jpeg)
+![microstructures_000004](https://user-images.githubusercontent.com/11892854/118386436-7a5d3880-b5e5-11eb-915a-dd687dc01aaf.jpeg)
+![microstructures_000005](https://user-images.githubusercontent.com/11892854/118386438-7c26fc00-b5e5-11eb-9b41-b0e89b02a5b6.jpeg)
+![microstructures_000007](https://user-images.githubusercontent.com/11892854/118386439-7cbf9280-b5e5-11eb-9cee-3cc17a7f0ab2.jpeg)
+![microstructures_000009](https://user-images.githubusercontent.com/11892854/118386440-7d582900-b5e5-11eb-89a2-bc0252ba8135.jpeg)
+![microstructures_000011](https://user-images.githubusercontent.com/11892854/118386441-7d582900-b5e5-11eb-98bb-9520f8dfe864.jpeg)
+![microstructures_000014](https://user-images.githubusercontent.com/11892854/118386442-7df0bf80-b5e5-11eb-8f20-d5262b2c1b3d.jpeg)
+![microstructures_000016](https://user-images.githubusercontent.com/11892854/118386443-7df0bf80-b5e5-11eb-82a5-eba0a00faeae.jpeg)
+![microstructures_000021](https://user-images.githubusercontent.com/11892854/118386444-7e895600-b5e5-11eb-9bc1-b40dfb0002cd.jpeg)
