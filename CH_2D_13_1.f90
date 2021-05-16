@@ -45,7 +45,7 @@ module INITIALIZATION
     integer, parameter::nx=300, ny=300
     real, dimension(nx,ny) :: phi,lap_phi,f,df,d2f
     real, dimension(nx,ny) :: lap_chem_pot,chem_pot
-    real,save :: phiold, dx, dy, dt,h,pi,mobility,kappa
+    real,save :: phiold, dx, dy, dt,h,pi!,!mobility,kappa
     real :: phitot
     real :: Betta_C,Betta_Max,Landa_C,Landa_Max,R_Max,betta,R
     integer, save :: l1, m1
@@ -76,7 +76,7 @@ MODULE wrt_opts
     CHARACTER(len=255) :: cwd,fileplace
 
     INTEGER, PARAMETER :: wrt_cycle  = 5000            !100000
-    INTEGER, PARAMETER :: file_cycle = 8*wrt_cycle    !20000
+    INTEGER, PARAMETER :: file_cycle = 20*wrt_cycle    !20000
     INTEGER, PARAMETER :: stop_iter  = 1*file_cycle   !100000
     INTEGER :: NNN3      = 1000
 
@@ -119,6 +119,7 @@ END MODULE wrt_opts
 program main
     use INITIALIZATION
     use wrt_opts
+    use mts_pars
     implicit none
     integer::i,j
 			
@@ -226,6 +227,7 @@ end subroutine
 
 subroutine analyze
     use INITIALIZATION
+    use mts_pars
     implicit none
     integer :: i,j,nnn 
         
@@ -233,7 +235,7 @@ subroutine analyze
     
     !---------------------------
     !! System Total Mass : For Controlling the mass conservation
-    phitot = phitot/DFLOAT((nx+1)*(ny+1))
+    phitot = phitot/DFLOAT((nx)*(ny))
     !---------------------------
         
     !---------------------------
@@ -270,6 +272,7 @@ end subroutine analyze
 
 subroutine gradandlaplace
     use INITIALIZATION
+    use mts_pars
     implicit none
     integer :: i,j,ip,im,jp,jm
     integer :: ipp,imm,jpp,jmm
@@ -335,6 +338,7 @@ end subroutine gradandlaplace
 !===============================================================
 subroutine evolution
     use INITIALIZATION
+    use mts_pars
     implicit none
     integer :: i,j,ip,im,jp,jm
     integer :: ipp,imm,jpp,jmm
@@ -386,6 +390,7 @@ end subroutine evolution
 subroutine printdata(k)
     use INITIALIZATION
 	use wrt_opts
+	use mts_pars
     IMPLICIT NONE
     INTEGER :: k,i,j
     CHARACTER(len=80) :: FileName2
